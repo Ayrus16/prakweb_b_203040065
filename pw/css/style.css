@@ -1,8 +1,9 @@
 body,html{
      margin: 0;
      padding: 0 !important;
-     background-color: #C1E5FF;
+     background-color: #D1FFE4 !important;
 }
+
 .deskripsi {
      white-space: nowrap; 
      overflow: hidden; 
