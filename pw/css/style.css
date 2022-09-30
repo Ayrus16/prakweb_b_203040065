@@ -1,0 +1,14 @@
+.deskripsi {
+     white-space: nowrap; 
+     overflow: hidden; 
+     text-overflow:ellipsis 
+}
+
+.list-buku{
+     margin-right:50px ;
+}
+
+.list-buku button{
+     margin-right:5px ;
+     
+}
