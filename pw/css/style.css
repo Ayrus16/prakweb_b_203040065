@@ -11,7 +11,7 @@ body,html{
 }
 
 .list-buku{
-     margin-right:50px ;
+     margin-right:20px ;
      padding: 0 !important;
      
 }
@@ -22,4 +22,7 @@ body,html{
 
 .list-buku button{
      margin-right:5px ;
+}
+.list-buku .card-text{
+     margin-bottom: 5px;
 }

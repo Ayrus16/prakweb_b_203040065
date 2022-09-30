@@ -45,11 +45,11 @@ $buku = query("SELECT * FROM buku");
             <p class="card-text deskripsi"><?= $b['deskripsi']; ?></p>
             <p class="card-text"><small class="text-muted"><?= $b['tahun_terbit']; ?></small></p>
             <a href="ubah.php?id_buku=<?= $b['id_buku'] ?>"> 
-              <button type="button" class="btn btn-warning">Ubah</button>
+              <button type="button " class="btn btn-warning btn-sm">Ubah</button>
             </a>
 
             <a href="hapus.php?id_buku=<?= $b['id_buku'] ?>"> 
-              <button type="button" class="btn btn-danger">Hapus</button>
+              <button type="button " class="btn btn-danger btn-sm">Hapus</button>
             </a>
           </div>
         </div>
