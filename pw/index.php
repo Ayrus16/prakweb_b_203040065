@@ -22,17 +22,17 @@ $buku = query("SELECT * FROM buku");
 
 <body>
   <div class="container">
-    <h2>Daftar Buku</h2>
+    <h2>Buku</h2>
     <a href="tambah.php"> 
               <button type="button" class="btn btn-primary">Tambah Data</button>
             </a>
     
-    <div class="row align-items-start">
+    <div class="row">
     <?php
     $i = 1;
     foreach ($buku as $b) : ?>
 
-    <div class="card mb-3 list-buku" style="max-width: 450px;">
+    <div class="card mb-4 list-buku" style="max-width: 450px;">
       <div class="row g-0">
         <div class="col-md-4">
           <img src="img/<?= $b['gambar']; ?>" class="img-fluid rounded-start" alt="BUKU">

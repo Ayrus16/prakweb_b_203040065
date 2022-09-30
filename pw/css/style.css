@@ -1,3 +1,7 @@
+body,html{
+     margin: 0;
+     padding: 0;
+}
 .deskripsi {
      white-space: nowrap; 
      overflow: hidden; 
@@ -6,9 +10,9 @@
 
 .list-buku{
      margin-right:50px ;
+     
 }
 
 .list-buku button{
      margin-right:5px ;
-     
 }
